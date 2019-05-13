@@ -253,3 +253,16 @@ hr {
 .form-row {
     margin-right: 0px;
 }
+.carte-fluide{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.carte-fluide iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
